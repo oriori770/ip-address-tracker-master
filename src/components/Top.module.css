@@ -1,0 +1,22 @@
+.search-container {
+    position: relative;
+    width: 250px;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 30px 10px 10px; /* ריפוד של 10px מצד ימין לשמירה על מקום לסמל */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url('path-to-your-icon.png'); /* שים את הנתיב לתמונה שלך */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
